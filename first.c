@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//добавил комментарий
 #include "fun.h"
 #include <locale.h>
 
@@ -6,6 +6,7 @@
 
 int* inputArray(int N)
 {
+int i=0;
     int * a = (int*)malloc(N*sizeof(int));
 
 
